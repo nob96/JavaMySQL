@@ -1,5 +1,5 @@
 # JavaMySQL
-Simple Class to establish mysql-connection and execute dml/dql queries
+Simple Class to establish mysql-connection and execute dml/dql statements.
 
 Usage dql:
 ```
