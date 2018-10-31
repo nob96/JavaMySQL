@@ -12,7 +12,7 @@ public class Main {
 	public static void main(String[] args) {
 		Map<Integer, Map<Object, Object>> arrData = new HashMap<>();
 		Database objDatabase = new Database();
-		String strSQL = "SELECT * FROM Einheit";
+		String strSQL = "SELECT * FROM yourtable";
 		arrData = objDatabase.dql(strSQL);
 	}
 }
