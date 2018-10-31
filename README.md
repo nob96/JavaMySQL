@@ -2,7 +2,7 @@
 Simple Class to establish mysql-connection and execute dml/dql queries
 
 Usage dql:
-
+```
 import java.util.HashMap;
 import java.util.Map;
 
@@ -17,9 +17,9 @@ public class Main {
 		arrData = objDatabase.dql(strSQL);
 	}
 }
-
+```
 Usage dml (please use prepared statements!):
-
+```
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
@@ -40,5 +40,5 @@ public class Main {
 		}
 	}
 }
-
+```
 
