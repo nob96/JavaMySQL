@@ -9,7 +9,6 @@ import java.util.Map;
 import resource.*;
 
 public class Main {
-
 	public static void main(String[] args) {
 		Map<Integer, Map<Object, Object>> arrData = new HashMap<>();
 		Database objDatabase = new Database();
